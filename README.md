@@ -1,4 +1,4 @@
-# Advanced Number Guessing Game in C 
+# Advanced Number Guessing Game in C (v2.0)
 
 A sophisticated command-line game developed to demonstrate intermediate C programming concepts. This project has evolved from a basic script into a structured application with persistent data storage and dynamic difficulty settings.
 
