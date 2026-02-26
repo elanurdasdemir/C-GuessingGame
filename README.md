@@ -1,22 +1,20 @@
-# Number Guessing Game in C
+# Advanced Number Guessing Game in C 
 
-A simple yet interactive command-line game developed as part of my Computer Engineering journey. This project demonstrates fundamental programming concepts in C, such as loops, conditional logic, and random number generation.
+A sophisticated command-line game developed to demonstrate intermediate C programming concepts. This project has evolved from a basic script into a structured application with persistent data storage and dynamic difficulty settings.
 
-## 🚀 Features
-* **Dynamic Random Number:** Generates a new secret number every time you play using `time.h`.
-* **Attempts System:** Players have a limited number of lives (10 attempts), adding a challenge to the game.
-* **Smart Feedback:** Provides real-time "Too High" or "Too Low" hints to guide the player.
-* **English Interface:** Completely written in English, suitable for a global developer portfolio.
+## 🌟 New & Advanced Features
+* **Difficulty Levels:** Choose between Easy (1-50), Medium (1-100), and Hard (1-500) modes.
+* **Persistent High Scores:** Player names and scores are saved into a `highscores.txt` file using C File I/O.
+* **Structured Data:** Implementation of `struct` to manage player information efficiently.
+* **Dynamic Lives:** Attempt limits change based on the selected difficulty level.
 
-## 🛠️ Concepts Applied
-* **Randomization:** Utilizing `srand()` and `rand()` for unpredictable gameplay.
-* **Control Flow:** Implementation of `do-while` loops and `if-else` statements.
-* **User Input:** Handling data with `scanf` and `printf`.
-* **Variables:** Managing game state with integer types.
+## 🛠️ Technical Concepts Applied
+* **File Handling (I/O):** Using `fopen`, `fprintf`, and `fgets` to read/write data to external files.
+* **Structures (Structs):** Custom data types to group player-related variables.
+* **Control Flow:** Advanced use of `switch-case` for menu navigation and `do-while` for game logic.
+* **Memory Safety:** Initializing variables to avoid garbage values (e.g., `attempts = 0`).
 
-## 📋 How to Run
-1. Make sure you have a C compiler installed (like GCC).
-2. Download the `NumberGuessingGame.c` file.
-3. Compile the code using:
+## 📋 How to Play
+1. Compile the code:
    ```bash
-   gcc NumberGuessingGame.c -o GuessingGame
+   gcc guessingnumber.c -o GuessingGame
