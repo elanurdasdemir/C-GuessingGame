@@ -4,7 +4,7 @@ A simple yet interactive command-line game developed as part of my Computer Engi
 
 ## 🚀 Features
 * **Dynamic Random Number:** Generates a new secret number every time you play using `time.h`.
-* **Attempts System:** Players have a limited number of lives (7 attempts), adding a challenge to the game.
+* **Attempts System:** Players have a limited number of lives (10 attempts), adding a challenge to the game.
 * **Smart Feedback:** Provides real-time "Too High" or "Too Low" hints to guide the player.
 * **English Interface:** Completely written in English, suitable for a global developer portfolio.
 
